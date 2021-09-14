@@ -13,7 +13,7 @@
         android:theme="@style/Theme.RandomCatFacts"
         android:name=".CatFactApplication">
         <activity
-            android:name=".view.ui.MainActivity"
+            android:name=".view.ui.CatFactActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
