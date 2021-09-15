@@ -32,5 +32,8 @@ class CatFactActivity : AppCompatActivity() {
             binding.txtViewCatFact.text = newCatFact.fact
         }
         catFactViewModel.catFact.observe(this, catFactObserver)
+
+        // Load data at start
+        catFactViewModel.loadCatFact()
     }
 }
